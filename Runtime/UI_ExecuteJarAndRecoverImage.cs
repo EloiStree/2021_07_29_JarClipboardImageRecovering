@@ -9,7 +9,7 @@ public class UI_ExecuteJarAndRecoverImage : MonoBehaviour
 {
 
     public TextAsset m_jarFile;
-    public string m_pathFolderDefaultToUse = "temp";
+    public string m_pathFolderDefaultToUse = "";
     public string m_pathFolderSpecific = "";
 
    
@@ -29,6 +29,14 @@ public class UI_ExecuteJarAndRecoverImage : MonoBehaviour
 
 
 
+    }
+
+
+    [ContextMenu("Open Asset Steam Folder")]
+    public void OpenSteamAssetFolder() {
+        UnityEngine.Debug.Log(Application.streamingAssetsPath);
+        Application.OpenURL(Application.streamingAssetsPath);
+    
     }
 
     [ContextMenu("Execute Jar")]
@@ -80,7 +88,6 @@ public class UI_ExecuteJarAndRecoverImage : MonoBehaviour
     }
 }
 
-[System.Serializable]
 public class RecoverClipboardImageCallback
 {
 
