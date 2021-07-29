@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.jarclipboardimagerecovering",                              
+  "displayName": "azre",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "This package allows push and pull image from clipboard in Unity by using a jar file.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2021_07_29_JarClipboardImageRecovering.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
